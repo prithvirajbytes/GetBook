@@ -44,7 +44,7 @@ public class Home extends AppCompatActivity implements HomeListAdapter.onhomelis
         catogrys.add(new HomeListModel("Life",R.drawable.life));
         catogrys.add(new HomeListModel("Love",R.drawable.love));
         catogrys.add(new HomeListModel("Time",R.drawable.time));
-        catogrys.add(new HomeListModel("Favorite Books",R.drawable.favorite));
+        catogrys.add(new HomeListModel("Books Brought",R.drawable.favorite));
         catogrys.add(new HomeListModel("delete",R.drawable.delete));
         HomeListAdapter HomeListAdapter =new HomeListAdapter(catogrys,this);
         homerec.setLayoutManager(new GridLayoutManager(this,2));
